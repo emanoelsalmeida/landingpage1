@@ -1,0 +1,595 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing:content-box
+}
+
+.header-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-item{
+    padding: 50px 70px;
+}
+.header-item h1{
+    margin-bottom: 30px;
+    color:#e20e02;
+    font-weight: 700;
+}
+.header-item h2{
+    width: 90%;
+    font-size: 1.3em ;
+}
+.header-item button.color{
+    background-color: #0cb94e;
+    color: white;
+    border: none;
+    width: 20vw;
+    height: 10vh;
+    font-size: 2vh;
+    display: block;
+    margin: 60px auto;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 35px;
+}
+
+main h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2.7em;
+}
+
+.pag-1{
+    background-image: linear-gradient( to right, RGB(45, 141, 228),#c42683);
+}
+.pag-1-item{
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+    flex-wrap: wrap;
+}
+.pag-1-item img{
+    height: 60vh;
+}
+.pag-1-item h1{
+    color: white;
+    width: 50%;
+    align-self: center;
+    margin-left: 40px;
+}
+.pag-1-item h1 b{
+    color: #f8ca1c;
+}
+
+.pag-2 iframe{
+    width: 55vw;
+    height: 61vh;
+    border: 5px solid #d11313;
+    display: block;
+    margin: 0 auto;
+}
+
+.pag-3{
+    background-color: #ececec;
+}
+
+.pag-3 h1{
+    padding-top: 50px;
+}
+.pag-3 h1 b{
+    color: #f60402 ;
+}
+.pag-3 h2{
+    text-align: center;
+    width:80%;
+    display: block;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.pag-3-box{
+    display: flex;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+.pag-3-item{
+    flex-direction: column;
+}
+.pag-3-item img{
+    width: 6vw;
+    display: block;
+    margin: auto;
+}
+.pag-3-item h3{
+    text-align: center;
+    font-size: 1.6em;
+    margin: 40px 0;
+}
+.pag-3-item h4{
+    text-align: center;
+    font-size: 1em;
+    font-weight: 300;
+    display: block;
+    margin: 50px auto;
+    width: 80%;
+}
+    
+.pag-4 h1{
+    padding-top: 50px;
+    color: black;
+}
+ .pag-4 iframe{
+    width: 55vw;
+    height: 61vh;
+    display: block;
+    margin: 0px auto;
+    border: 5px solid #d11313;
+}
+
+.pag-5{
+    background-color: #5e008c;
+}
+.pag-5 h1, .pag-5 h2{
+    padding-top: 50px;
+    color: #fffd00;
+}
+.pag-5 h2{
+    text-align: center;
+}
+.pag-5 h3 {
+    color:white;
+    margin: 50px 0;
+    text-align: center;
+    font-size: 1.6em;
+}
+.pag-5 h4 {
+    color:white;
+    text-align: center;
+    font-size: 1.4em;
+    display: block;
+    margin: 0 auto;
+    width:80%;
+    padding: 20px 0;
+    color: #fde753;
+}
+.pag-5 h5 {
+    color:white;
+    text-align: center;
+    font-size: 1.4em;
+    display: block;
+    margin: 0 auto;
+    width:80%;
+}
+.pag-5 button.color{
+    background-color:#fde753;
+    color: white;
+    border: none;
+    width: 20vw;
+    height: 10vh;
+    font-size: 2vh;
+    display: block;
+    margin: 50px auto;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 35px;
+}
+
+.pag-5-box{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 49vh;
+    grid-auto-rows: 49vh;
+    width: 100%;
+    grid-gap: 20px;
+    justify-content: center;
+}
+.pag-5-item img{
+    width: 25vw;
+}
+.pag-5-bottom{
+    padding-bottom: 50px; ;
+}
+
+.pag-6-box{
+    display: grid;
+    grid-template-columns: 40% 20%;
+    grid-gap: 50px;
+    justify-content: center;
+    padding: 50px 0;
+}
+.pag-6-item img{
+    height: 60vh;
+}
+.pag-6-item h1{
+    color:#07c57f;
+    justify-self:flex-start;
+    font-weight: 900;
+}
+.pag-6-item h2{
+
+align-self: flex-start;
+}
+
+.pag-7-box{
+    display: grid;
+    grid-template-columns: 30% 40%;
+    grid-gap: 50px;
+    justify-content: center;
+}
+.pag-7-item{
+    padding: 50px 0;
+}
+.pag-7-item h1{
+    text-align: center;
+    color: #fcf400;
+    font-weight: 900;
+}
+.pag-7-item button.color{
+    background-color:#00fe2a;
+    color: white;
+    border: none;
+    width: 36vw;
+    height: 16vh;
+    font-size: 2vh;
+    display: block;
+    margin: 50px auto;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 76px;
+}
+.pag-7-item p{
+
+    color: white;
+}
+.pag-7{
+    background-image: 
+    linear-gradient(to top, RGB(71, 80, 207),RGB(239, 103, 41));
+}
+
+.pag-8-box{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 350px;
+    grid-auto-rows: 350px;
+    grid-gap: 50px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.pag-8-item img{
+    width: 20vw;
+}
+
+.faq{
+    background-color: black;
+}
+.faq h1{
+    color:#fde753;
+}
+.collapse1{
+    width: 80%;
+    display:block;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.collapse1 button{
+    color: black;
+}
+
+.pag-9{
+    background-color: #ff0198;
+}
+.pag-9 h1{
+    color: white;
+}
+.pag-9 button.color{
+    background-color:#fcfb03;
+    color:black;
+    border: none;
+    width: 46vw;
+    height: 13vh;
+    font-size: 2vh;
+    display: block;
+    margin: 50px auto;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 76px;
+}
+.margin-9{
+    padding: 50px 0;
+}
+
+.pag-10{
+    background-color: #083b3c;
+}
+.pag-10-box{
+    display: grid;
+    grid-template-columns: 38% 38%;
+    grid-template-rows: 550px;
+    grid-auto-rows: 550px;
+    grid-gap: 20px;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+.pag-10-item img{
+    width: 20vw;
+    display:block;
+    margin: 0 auto;
+}
+.pag-10-item h3{
+    text-align: center;
+}
+.pag-10-item h4{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 400;
+}
+.blank{
+    background-color:white;
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+
+.pack{
+    background-color: #1d242e;
+}
+.pack h1{
+    color: #fcfb03;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.pag-11{
+    background-color: #ffe200;
+}
+.pag-11-box{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.pag-11-item{
+    align-items: center;
+}
+.pag-11-item h3{
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+.pag-11-item img{
+    align-self: center;
+}
+.pag-12{
+    background-color: #230036;
+}
+.pag-12 h1{
+    font-size: 2em;
+    color: #fefc07;
+}
+
+.box-12{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.box-12-item{
+    align-items: center;
+}
+.box-12-item h2{
+    color: #f80000;
+    margin-bottom: 20px;
+    font-size: 2.6em;
+    text-align: center;
+}
+.box-12-item h3{
+    color:white;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    text-align: center;
+}
+.box-12-item h4{
+    color: #fefc07;
+    margin-bottom: 20px;
+    font-size: 4.5em;
+    text-align: center;
+}
+.box-12-item img{
+    align-self: center;
+}
+.pag-12 button.color{
+    background-color:#00fe2a;
+    color:white;
+    border: none;
+    width: 30vw;
+    height: 13vh;
+    font-size: 2vh;
+    display: block;
+    margin: 50px auto;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 76px;
+}
+
+footer{
+    background-color: #f30052;
+}
+footer p{
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+
+}
+footer p a{
+     text-decoration: none ;
+     color: white;
+}
+
+
+@media screen and (max-width:900px){
+    .header-item{
+        padding: 50px;
+    }
+    .header-item h1, .header-item h2{
+        text-align: center
+    }
+    .header-item button.color, .pag-5 button.color{
+        width: 80vw;
+        height:20vh;
+        border-radius: 85px;
+        font-size: 2.2em;
+        display: block;
+        margin: 10px auto;
+    }
+    
+    .pag-1-item h1{
+    color: white;
+    width: 90%;
+    align-self: center;
+    margin-left: 0px;
+}
+    
+    .pag-2 iframe, .pag-4 iframe{
+    width: 80%;
+    height: 50%;
+    border: 5px solid #d11313;
+    display: block;
+    margin: 50px auto;
+}
+    .pag-3-item img{
+    width: 20vw;
+    display: block;
+    margin: auto;
+}
+    .pag-5-box{
+        grid-template-columns: 80%;
+        grid-template-rows: 50vh;
+         grid-auto-rows: 50vh;
+    }  
+    .pag-5-item img{
+        width: 80vw;
+            display: block;
+            margin: 0 auto;
+}
+    .pag-6-box, .pag-7-box{
+        grid-template-columns: 80%;
+
+}
+    .pag-6-item img{
+    height: 40vh;
+}
+    .pag-6-item h2{
+
+        align-self: center;
+        text-align: center;
+}
+    .pag-7-item img{
+        height: 60vh;
+        display: block;
+        margin: 0 auto;
+            
+    }
+    .pag-7-item{
+        padding:0;
+    }
+    .pag-7-item button.color{
+    background-color:#00fe2a;
+    color: white;
+    border: none;
+    width: 80vw;
+    height: 20vh;   
+    display: block;
+    margin: 20px auto;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 76px;
+}
+    .pag-8-box{
+        grid-template-columns: 80%;
+        padding: 30px 0;
+        justify-content: center;
+
+}
+    .pag-8-item img{
+        width: 70vw;
+}
+    .collapse1 {
+        width: 100%;
+}
+    .pag-9 h1, .pag-11 h1{
+        font-size: 2.1em
+}
+    .pag-9 button.color{
+    background-color:#fcfb03;
+    color:black;
+    border: none;
+    width: 80vw;
+    height: 20vh;
+    font-size: 2vh;
+    display: block;
+    margin: 50px auto;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 76px;
+}
+    .pag-10-box{
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 600px;
+    grid-auto-rows: 630px;
+    grid-gap: 20px;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+    .pag-10-item img, .box-12-item img{
+    width: 80vw;
+    display:block;
+    margin: 0 auto;
+}
+    .pag-11-box{
+    display: grid;
+    grid-template-columns: 80%;
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+    .box-12{
+    display: grid;
+    grid-template-columns:80%;
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+    .pag-12 button.color{
+    background-color:#00fe2a;
+    color:white;
+    border: none;
+    width: 80vw;
+    height: 20vh;
+    font-size: 2vh;
+    display: block;
+    margin: 50px auto;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 76px;
+}
+    footer{
+    background-color: #f30052;
+}
+}
