@@ -63,7 +63,9 @@ main h1{
 .pag-1-item h1 b{
     color: #f8ca1c;
 }
-
+.pag-2 h1{
+    padding-bottom: 50px;
+}
 .pag-2 iframe{
     width: 55vw;
     height: 61vh;
@@ -552,8 +554,8 @@ footer p a{
     .pag-10-box{
     display: grid;
     grid-template-columns: 80%;
-    grid-template-rows: 600px;
-    grid-auto-rows: 630px;
+    grid-template-rows: 650px;
+    grid-auto-rows: 650px;
     grid-gap: 20px;
     justify-content: center;
     padding-bottom: 50px;
