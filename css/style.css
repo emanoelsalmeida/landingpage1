@@ -93,7 +93,7 @@ main h1{
 .pag-3-box{
     display: flex;
     margin: 50px 0;
-    flex-wrap: wrap;
+
 }
 .pag-3-item{
     flex-direction: column;
@@ -457,6 +457,11 @@ footer p a{
     width: 90%;
     align-self: center;
     margin-left: 0px;
+}
+    .pag-3-box{
+    display: flex;
+    margin: 50px 0;
+    flex-wrap: wrap;
 }
     
     .pag-2 iframe, .pag-4 iframe{
